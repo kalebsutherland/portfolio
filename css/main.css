@@ -1,2 +1,76 @@
-font-family: 'Philosopher', sans-serif;
-font-family: 'Open Sans', sans-serif;
+/*****BASE*****/
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+/*****GRID*****/
+
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.third-width {
+  width: 400px;
+  margin: 0 auto;
+  float: left;
+}
+
+
+/*****HEADER*****/
+
+header {
+  height: 800px;
+  background-image: url("../img/hero.jpg");
+  background-color: black; /*Used if image is unavailable*/
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+nav {
+  text-align: right;
+  padding-top: 25px;
+  padding-right: 100px;
+}
+
+nav ul li {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: bold;
+  padding-left: 25px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+
+
+/*FIX THIS LATER*/
+img {
+  width: 200px;
+}
+
+
+
+
+
+
+#about {
+  height: 1050px;
+}
+
+#portfolio {
+  height: 850px;
+}
+
+footer {
+  height: 650px;
+}
+
+/*font-family: 'Philosopher', sans-serif;*/
