@@ -31,9 +31,16 @@ header {
 }
 
 nav {
+  height: 80px;
+  margin: 0;
   text-align: right;
-  padding-top: 25px;
-  padding-right: 100px;
+  padding-right: 50px;
+  background: #4a637e;
+  opacity: 0.85;
+}
+
+nav ul {
+  margin: 0;
 }
 
 nav ul li {
@@ -41,12 +48,36 @@ nav ul li {
   text-transform: uppercase;
   font-size: 24px;
   font-weight: bold;
-  padding-left: 25px;
+  padding: 15px;
+  margin: 10px;
 }
 
 nav a {
   text-decoration: none;
-  color: black;
+  color: #dce6f5;
+}
+
+nav a:hover {
+  color: #ffb091;
+}
+
+header h1 {
+  font-family: 'Philosopher', sans-serif;
+  font-size: 100px;
+  margin-top: 300px;
+  margin-bottom: 25px;
+  color: #dce6f5;
+  font-weight: normal;
+}
+
+header span {
+  color: #ffb091;
+}
+
+header h2 {
+  font-size: 36px;
+  color: #dce6f5;
+  font-weight: normal;
 }
 
 
@@ -72,5 +103,3 @@ img {
 footer {
   height: 650px;
 }
-
-/*font-family: 'Philosopher', sans-serif;*/
