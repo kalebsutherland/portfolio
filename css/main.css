@@ -8,7 +8,12 @@ body {
 /*****GRID*****/
 
 .full-width {
-  width: 1200px;
+  width: 1400px;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 600px;
   margin: 0 auto;
 }
 
@@ -28,6 +33,7 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   background-size: auto;
+  box-sizing: border-box;
 }
 
 nav {
@@ -63,21 +69,84 @@ nav a:hover {
 
 header h1 {
   font-family: 'Philosopher', sans-serif;
-  font-size: 100px;
-  margin-top: 300px;
-  margin-bottom: 25px;
+  font-size: 110px;
+  margin: 325px 0 25px 50px;
   color: #dce6f5;
   font-weight: normal;
 }
 
 header span {
   color: #ffb091;
+  font-weight: bold;
 }
 
 header h2 {
   font-size: 36px;
   color: #dce6f5;
   font-weight: normal;
+  margin-left: 50px;
+}
+
+
+
+/*****ABOUT*****/
+
+#about {
+  height: 1050px;
+  background: #ffb091;
+  margin: 0;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 160px;
+}
+
+#about h3 {
+  font-family: 'Philosopher', sans-serif;
+  margin: 0 auto;
+  font-size: 40px;
+  font-weight: bold;
+  color: black;
+}
+
+#about img {
+  width: 290px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #dce6f5;
+  margin: 50px;
+}
+
+#about p {
+  font-size: 24px;
+  color: black;
+}
+
+#about span {
+  font-weight: bold;
+}
+
+
+
+/*****PORTFOLIO*****/
+
+#portfolio {
+  height: 850px;
+  background: #dce6f5;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+
+/*****FOOTER*****/
+
+footer {
+  height: 650px;
+  background: #ffb091;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 
@@ -85,21 +154,4 @@ header h2 {
 /*FIX THIS LATER*/
 img {
   width: 200px;
-}
-
-
-
-
-
-
-#about {
-  height: 1050px;
-}
-
-#portfolio {
-  height: 850px;
-}
-
-footer {
-  height: 650px;
 }
