@@ -8,7 +8,7 @@ body {
 /*****GRID*****/
 
 .full-width {
-  width: 1400px;
+  width: 1200px;
   margin: 0 auto;
 }
 
@@ -18,8 +18,8 @@ body {
 }
 
 .third-width {
-  width: 400px;
-  margin: 0 33px;
+  width: 350px;
+  margin: 0 25px;
   float: left;
   box-sizing: border-box;
 }
@@ -71,7 +71,7 @@ nav a:hover {
 header h1 {
   font-family: 'Philosopher', sans-serif;
   font-size: 110px;
-  margin: 325px 0 25px 50px;
+  margin: 325px 0 25px 25px;
   color: #dce6f5;
   font-weight: normal;
 }
@@ -82,10 +82,10 @@ header span {
 }
 
 header h2 {
-  font-size: 36px;
+  font-size: 35px;
   color: #dce6f5;
   font-weight: normal;
-  margin-left: 50px;
+  margin-left: 25px;
 }
 
 
@@ -98,7 +98,7 @@ header h2 {
   margin: 0;
   text-align: center;
   box-sizing: border-box;
-  padding: 160px;
+  padding: 150px 0;
 }
 
 #about h3 {
@@ -136,7 +136,7 @@ header h2 {
   margin: 0;
   box-sizing: border-box;
   text-align: center;
-  padding: 150px 0;
+  padding: 145px 0;
 }
 
 #portfolio h3 {
@@ -153,7 +153,7 @@ header h2 {
 }
 
 #portfolio h4 {
-  font-size: 24px;
+  font-size: 22px;
   font-weight: bold;
 }
 
