@@ -12,7 +12,7 @@
 
   <body>
 
-    <header class="full-width">
+    <header>
       <nav>
         <ul>
           <li><a href="#about">About</a></li>
@@ -20,47 +20,53 @@
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
-      <h1>Hello World, my name is &lt;<span>Kaleb Sutherland</span>&gt;</h1>
-      <h2>I'm a web developer, designer, and digital storyteller based in Chicago.</h2>
+      <div class="full-width">
+        <h1>Hello World, my name is &lt;<span>Kaleb Sutherland</span>&gt;</h1>
+        <h2>I'm a web developer, designer, and digital storyteller based in Chicago.</h2>
+      </div>
     </header>
 
     <main>
-      <section id="about" class="full-width">
-        <h3>About Me</h3>
-        <img src="img/headshot-bw.jpg" alt="Kaleb's headshot" />
-        <div class="half-width">
-          <p>My name is Kaleb, and I’m a freelance web developer with a passion for smart code and elegant design that helps organizations tell their stories in captivating ways. I specialize in working with nonprofit organizations and small businesses, but I'm open to a wide variety of projects!</p>
-          <p><span>Let's make your vision a reality!</span></p>
+      <section id="about">
+        <div class="full-width">
+          <h3>About Me</h3>
+          <img src="img/headshot-bw.jpg" alt="Kaleb's headshot" />
+          <div class="half-width">
+            <p>My name is Kaleb, and I’m a freelance web developer with a passion for smart code and elegant design that helps organizations tell their stories in captivating ways. I specialize in working with nonprofit organizations and small businesses, but I'm open to a wide variety of projects!</p>
+            <p><span>Let's make your vision a reality!</span></p>
+          </div>
         </div>
       </section>
 
-      <section id="portfolio" class="full-width">
-        <h3>My Portfolio</h3>
-        <div class="third-width">
-          <img src="img/jubilee-austen.jpg" alt="Portfolio website screenshot" />
-          <!--ADD ANCHOR TO IMAGE-->
-          <h4>Jubilee Austen Portfolio Site</h4>
-          <p>A beautiful minimalist portfolio site perfect to tell the story of your work, whether you’re an artist, academic, designer or anything in between.</p>
-        </div>
-        <div class="third-width">
-          <img src="img/rogue-pickings.jpg" alt="Food truck website screenshot"/>
-          <!--ADD ANCHOR TO IMAGE-->
-          <h4>Rogue Pickings Food Truck Site</h4>
-          <p>Showcase your food truck, coffee shop, or restaurant with this delectable design that helps you highlight your cuisine and your top reviews.</p>
-        </div>
-        <div class="third-width">
-          <!--INSERT ACTUAL IMAGE AND ALT TEXT LATER-->
-          <img src="img/rogue-pickings.jpg" alt="Example website screenshot" />
-          <!--ADD ANCHOR TO IMAGE-->
-          <h4>Placeholder Title</h4>
-          <p>Placeholder description.</p>
+      <section id="portfolio">
+        <div class="full-width">
+          <h3>My Portfolio</h3>
+          <div class="third-width">
+            <img src="img/jubilee-austen.jpg" alt="Portfolio website screenshot" />
+            <!--ADD ANCHOR TO IMAGE-->
+            <h4>Jubilee Austen Portfolio Site</h4>
+            <p>A beautiful minimalist portfolio site perfect to tell the story of your work, whether you’re an artist, academic, designer or anything in between.</p>
+          </div>
+          <div class="third-width">
+            <img src="img/rogue-pickings.jpg" alt="Food truck website screenshot"/>
+            <!--ADD ANCHOR TO IMAGE-->
+            <h4>Rogue Pickings Food Truck Site</h4>
+            <p>Showcase your food truck, coffee shop, or restaurant with this delectable design that helps you highlight your cuisine and your top reviews.</p>
+          </div>
+          <div class="third-width">
+            <!--INSERT ACTUAL IMAGE AND ALT TEXT LATER-->
+            <img src="img/rogue-pickings.jpg" alt="Example website screenshot" />
+            <!--ADD ANCHOR TO IMAGE-->
+            <h4>Placeholder Title</h4>
+            <p>Placeholder description.</p>
+          </div>
         </div>
       </section>
     </main>
 
-    <footer id="contact" class="full-width">
-      <h3>Let's Connect</h3>
+    <footer id="contact">
       <div class="full-width">
+        <h3>Let's Connect</h3>
         <div class="third-width">
           <h4>Hire Me</h4>
           <p>
@@ -76,7 +82,6 @@
             <li><a href="https://github.com/kalebsutherland" target="_blank"><img src="img/github.png" alt="Github icon" /></a></li>
             <li><a href="https://www.linkedin.com/in/kaleb-sutherland/" target="_blank"><img src="img/linkedin.png" alt="LinkedIn icon" /></a></li>
           </ul>
-          <!--FIX ANCHORS TO POINT TO ACTUAL SOCIAL MEDIA PROFILES-->
         </div>
         <div class="third-width">
           <h4>Meet Me</h4>
@@ -85,8 +90,8 @@
             Let's grab coffee!
           </p>
         </div>
+        <p class="copyright">Copyright 2019 | Kaleb Sutherland</p>
       </div>
-      <p class="copyright">Copyright 2019 | Kaleb Sutherland</p>
     </footer>
 
   </body>
